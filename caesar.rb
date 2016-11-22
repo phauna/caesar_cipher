@@ -24,9 +24,6 @@ upalpha = upalpha1 + upalpha2
 
 caesar = []
 
-
-
-
 split_sen.each do |letter|
 	if letter =~ /[a-z]/
 		letterkey = alphabet.find_index(letter).to_i
